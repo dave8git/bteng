@@ -1,0 +1,55 @@
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("./images/pexels-photo-13726337.jpeg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-logo {
+  width: 100px; /* Adjust the logo size as needed */
+  margin-bottom: 10px;
+}
+
+.footer-company {
+  font-weight: bold;
+}
+
+/* Optional: Add more styling for links, address, etc. */
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+  .footer-logo {
+    width: 80px;
+  }
+}
+   
