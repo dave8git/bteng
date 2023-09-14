@@ -6,6 +6,18 @@ body, html {
   line-height: 1.8;
 }
 
+.projectColor1 {
+  color: #1F375B;
+}
+
+.projectColor2 {
+  color: #C55911;
+}
+
+.logo {
+  width: 399px;
+}
+
 /* Full height image header */
 .bgimg-1 {
   background-position: center;
@@ -26,14 +38,11 @@ footer {
   text-align: center;
 }
 
-.footer-logo {
-  width: 100px; /* Adjust the logo size as needed */
-  margin-bottom: 10px;
-}
-
-.footer-company {
+/* .footer-company {
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-weight: bold;
-}
+} */
 
 /* Optional: Add more styling for links, address, etc. */
 .footer-links {
@@ -45,6 +54,66 @@ footer {
   text-decoration: none;
   margin: 0 10px;
 }
+/* header */ 
+
+header {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /* Display rows in a column */
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.square {
+  width: 280px;
+  height: 130px;
+  background-color: #3498db;
+  margin: 10px;
+  transform: translateX(0);
+  transition: transform 5s ease-in-out;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top {
+  transform: translateY(-100vh);
+}
+
+.right {
+  transform: translateX(100vw);
+}
+
+.bottom {
+  transform: translateY(100vh);
+}
+
+.left {
+  transform: translateX(-100vw);
+}
+
+.relative {
+  position: relative;
+}
+
+.container-squares {
+  position: absolute;
+  top: 300;
+}
 
 /* Media Query for responsiveness */
 @media (max-width: 768px) {
@@ -53,3 +122,80 @@ footer {
   }
 }
    
+/* Gallery */
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.container-gallery {
+  max-width: 1024px;
+  max-height: 100%;
+  width: 90%;
+  margin: auto;
+  padding: 40px 0;
+}
+
+.title {
+  margin-bottom: 2rem;
+}
+
+.photo-gallery{
+  display: flex;
+  gap: 20px;
+}
+
+.column {
+  display: flex; 
+  flex-direction: column;
+  gap: 20px;
+}
+
+.photo img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 5px;
+  object-fit: contain;
+}
+
+@media(max-width: 768px) {
+  .photo-gallery {
+      flex-direction: column;
+  }
+}
+
+/* Add the following styles for the lightbox */
+.lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  text-align: center;
+}
+
+.lightbox-content {
+  display: inline-block;
+  max-width: 90%;
+  max-height: 90%;
+  margin-top: 5%;
+}
+
+.lightbox img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 5px;
+  object-fit: contain;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 30px;
+  cursor: pointer;
+  color: #fff;
+}

@@ -144,6 +144,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-padding-64{padding-top:64px!important;padding-bottom:64px!important}
 .w3-padding-top-64{padding-top:64px!important}.w3-padding-top-48{padding-top:48px!important}
 .w3-padding-top-32{padding-top:32px!important}.w3-padding-top-24{padding-top:24px!important}
+.w3-padding-top-16{padding-top:24px!important}.w3-padding-top-16{padding-top:16px!important}
 .w3-left{float:left!important}.w3-right{float:right!important}
 .w3-button:hover{color:#000!important;background-color:#ccc!important}
 .w3-transparent,.w3-hover-none:hover{background-color:transparent!important}
@@ -202,6 +203,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-text-yellow,.w3-hover-text-yellow:hover{color:#d2be0e!important}
 .w3-text-white,.w3-hover-text-white:hover{color:#fff!important}
 .w3-text-black,.w3-hover-text-black:hover{color:#000!important}
+.w3-text-projectColor2,.w3-hover-text-projectColor2:hover{color:#C55911!important}
 .w3-text-grey,.w3-hover-text-grey:hover,.w3-text-gray,.w3-hover-text-gray:hover{color:#757575!important}
 .w3-text-light-grey,.w3-hover-text-light-grey:hover,.w3-text-light-gray,.w3-hover-text-light-gray:hover{color:#f1f1f1!important}
 .w3-text-dark-grey,.w3-hover-text-dark-grey:hover,.w3-text-dark-gray,.w3-hover-text-dark-gray:hover{color:#3a3a3a!important}
