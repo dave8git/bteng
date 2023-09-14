@@ -7,11 +7,11 @@ body, html {
 }
 
 .projectColor1 {
-  color: #1F375B;
+  color: #1F375B!important;
 }
 
 .projectColor2 {
-  color: #C55911;
+  color: #C55911!important;
 }
 
 .logo {
@@ -22,7 +22,7 @@ body, html {
 .bgimg-1 {
   background-position: center;
   background-size: cover;
-  background-image: url("./images/pexels-photo-13726337.jpeg");
+  background-image: url("./images/ZD1.jpg");
   min-height: 100%;
 }
 
